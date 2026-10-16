@@ -149,5 +149,7 @@ Packages/packages-lock.json linguist-generated
 *.skel.bytes            lfs
 # Exceptions for .asset files such as lightning pre-baking
 LightingData.asset     binary
+# Unity terrain data files
+*.terrain.asset        binary
 Assets/DownloadedStuff/FlipGameDev/Terrain&GrassPack/Terrain_Settings/Data/Demo.asset filter=lfs diff=lfs merge=lfs -text
 Assets/DownloadedStuff/FlipGameDev/Terrain&GrassPack/Demo/Demo/LightingData.asset filter=lfs diff=lfs merge=lfs -text
