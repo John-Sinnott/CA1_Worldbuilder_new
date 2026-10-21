@@ -1,24 +1,19 @@
+
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LevelLoader : MonoBehaviour
 {
-
     [Tooltip("Name of the scene to load. It must be listed in Build Settings.")]
-
-    [SerializeField] string nextSceneName = "level_2";
-
+    [SerializeField] private string nextSceneName = "level_2";
 
     public void LoadNextLevel()
-
     {
+        // Unpause the game before loading the next level.
+        Time.timeScale = 1f;
 
-        // ScoreManager pauses the game when the level is complete, Debug.Log("Loading next level: " + nextSceneName);
-
-        // so unpause before loading Time.timeScale = 1f;
+        Debug.Log("Loading next level: " + nextSceneName);
 
         SceneManager.LoadScene(nextSceneName);
-
     }
-
 }
