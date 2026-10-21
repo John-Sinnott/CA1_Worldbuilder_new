@@ -1,0 +1,234 @@
+ .gitattributes                                     |    3 [32m+[m
+ Assets/DownloadedStuff/Roadside Tales Bridges.meta |    8 [32m+[m
+ .../Roadside Tales Bridges/AssetsPreview_Demo.meta |    8 [32m+[m
+ .../RoadsideTalesBridgesAssetsPrewiev.unity        | 1712 [32m++++++++++++[m
+ .../RoadsideTalesBridgesAssetsPrewiev.unity.meta   |   14 [32m+[m
+ .../Roadside Tales Bridges/Meshes.meta             |    8 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01b.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01b.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01c.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01c.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01d.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_01d.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02a.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02a.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02b.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02b.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02c.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_02c.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_03b.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_03b.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_03c.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_03c.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_04a.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_04a.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_04b.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_04b.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_05a.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_05a.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_06a.fbx                  |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_06a.fbx.meta             |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_01a.fbx           |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_01a.fbx.meta      |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_02a.fbx           |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_02a.fbx.meta      |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_03a.fbx           |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_Corner_03a.fbx.meta      |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_01a.fbx              |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_01a.fbx.meta         |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_02a.fbx              |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_02a.fbx.meta         |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_03a.fbx              |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_03a.fbx.meta         |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_04a.fbx              |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_04a.fbx.meta         |  118 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_04b.fbx              |    3 [32m+[m
+ .../Meshes/EA03_Prop_Pier_End_04b.fbx.meta         |  118 [32m+[m
+ .../Roadside Tales Bridges/Prefabs.meta            |    8 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_01b_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_01b_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_01c_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_01c_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_01d_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_01d_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_02a_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_02a_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_02b_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_02b_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_02c_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_02c_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_03b_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_03b_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_03c_PRE.prefab          |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_03c_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_04a_PRE.prefab          |  335 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_04a_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_04b_PRE.prefab          |  335 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_04b_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_05a_PRE.prefab          |  379 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_05a_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_06a_PRE.prefab          |  357 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_06a_PRE.prefab.meta     |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_Corner_01a_PRE.prefab   |  336 [32m+++[m
+ .../EA03_Prop_Pier_Corner_01a_PRE.prefab.meta      |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_Corner_02a_PRE.prefab   |  336 [32m+++[m
+ .../EA03_Prop_Pier_Corner_02a_PRE.prefab.meta      |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_Corner_03a_PRE.prefab   |  336 [32m+++[m
+ .../EA03_Prop_Pier_Corner_03a_PRE.prefab.meta      |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_End_01a_PRE.prefab      |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_End_01a_PRE.prefab.meta |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_End_02a_PRE.prefab      |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_End_02a_PRE.prefab.meta |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_End_03a_PRE.prefab      |  336 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_End_03a_PRE.prefab.meta |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_End_04a_PRE.prefab      |  357 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_End_04a_PRE.prefab.meta |   15 [32m+[m
+ .../Prefabs/EA03_Prop_Pier_End_04b_PRE.prefab      |  335 [32m+++[m
+ .../Prefabs/EA03_Prop_Pier_End_04b_PRE.prefab.meta |   15 [32m+[m
+ .../Roadside Tales Bridges/Textures.meta           |    8 [32m+[m
+ .../Textures/EA02_LPNP-Slavika_Colorsheet_v1.png   |    3 [32m+[m
+ .../EA02_LPNP-Slavika_Colorsheet_v1.png.meta       |   95 [32m+[m
+ .../Materials/EA03_LPNP-Slavika_Colorsheet_v1.mat  |   45 [32m+[m[31m-[m
+ .../EA03_LPNP-Slavika_Colorsheet_v1.mat.meta       |   10 [32m+[m[31m-[m
+ .../Meshes/EA03_Prop_Pier_03d.fbx                  |    4 [32m+[m[31m-[m
+ .../Meshes/EA03_Prop_Pier_03d.fbx.meta             |  134 [32m+[m[31m-[m
+ .../Meshes/EA03_Prop_Pier_04c.fbx                  |    4 [32m+[m[31m-[m
+ .../Meshes/EA03_Prop_Pier_04c.fbx.meta             |  134 [32m+[m[31m-[m
+ .../Settings/EA_PP_Bridge_Profile.asset            |  281 [32m++[m
+ .../Settings/EA_PP_Bridge_Profile.asset.meta       |   15 [32m+[m
+ ...iversal Render Pipeline Asset-HighQuality.asset |   16 [32m+[m[31m-[m
+ ...al Render Pipeline Asset-HighQuality.asset.meta |   12 [32m+[m[31m-[m
+ ...niversal Render Pipeline Asset-LowQuality.asset |   16 [32m+[m[31m-[m
+ ...sal Render Pipeline Asset-LowQuality.asset.meta |   12 [32m+[m[31m-[m
+ ...ersal Render Pipeline Asset-MediumQuality.asset |   18 [32m+[m[31m-[m
+ ... Render Pipeline Asset-MediumQuality.asset.meta |   12 [32m+[m[31m-[m
+ ... Universal Render Pipeline Asset_Renderer.asset |   38 [32m+[m[31m-[m
+ ...ersal Render Pipeline Asset_Renderer.asset.meta |   12 [32m+[m[31m-[m
+ .../URP_Setup_Guide_Unity_2022_EmaceArt.pdf.meta   |   12 [32m+[m[31m-[m
+ .../Bridge/EA03_Prop_Pier_03d_PRE.prefab           |  475 [32m+[m[31m---[m
+ .../Bridge/EA03_Prop_Pier_03d_PRE.prefab.meta      |   10 [32m+[m[31m-[m
+ .../Bridge/EA03_Prop_Pier_04c_PRE.prefab           |  249 [32m+[m[31m-[m
+ .../Bridge/EA03_Prop_Pier_04c_PRE.prefab.meta      |   10 [32m+[m[31m-[m
+ .../Nature/Bushes/EA03_Nature_Bush_03c_PRE.prefab  |   46 [32m+[m
+ Assets/DownloadedStuff/downloaded brushes.meta     |    8 [32m+[m
+ .../downloaded brushes/Terrain.meta                |    8 [32m+[m
+ .../downloaded brushes/Terrain/Stamps.meta         |    8 [32m+[m
+ .../Terrain/Stamps/Examples.meta                   |    8 [32m+[m
+ .../Terrain/Stamps/Examples/Brushes.meta           |    8 [32m+[m
+ .../Stamps/Examples/Brushes/Islands 07.brush       |   43 [32m+[m
+ .../Stamps/Examples/Brushes/Islands 07.brush.meta  |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Islands 23.brush       |   43 [32m+[m
+ .../Stamps/Examples/Brushes/Islands 23.brush.meta  |   16 [32m+[m
+ .../Examples/Brushes/Islands Volcano 02.brush      |   43 [32m+[m
+ .../Examples/Brushes/Islands Volcano 02.brush.meta |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Jungle Rivers 03.brush |   43 [32m+[m
+ .../Examples/Brushes/Jungle Rivers 03.brush.meta   |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Layered Rocks 09.brush |   43 [32m+[m
+ .../Examples/Brushes/Layered Rocks 09.brush.meta   |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Layered Rocks 15.brush |   43 [32m+[m
+ .../Examples/Brushes/Layered Rocks 15.brush.meta   |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rock Shapes 10.brush   |   43 [32m+[m
+ .../Examples/Brushes/Rock Shapes 10.brush.meta     |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rock Shapes 22.brush   |   43 [32m+[m
+ .../Examples/Brushes/Rock Shapes 22.brush.meta     |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rocky Desert 01.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rocky Desert 01.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rocky Desert 12.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rocky Desert 12.brush.meta    |   16 [32m+[m
+ .../Examples/Brushes/Rocky Plateaus 01.brush       |   43 [32m+[m
+ .../Examples/Brushes/Rocky Plateaus 01.brush.meta  |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rough Cliffs 18.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rough Cliffs 18.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rugged Rocks 02.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rugged Rocks 02.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rugged Rocks 14.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rugged Rocks 14.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rugged Rocks 20.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rugged Rocks 20.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Rugged Rocks 51.brush  |   43 [32m+[m
+ .../Examples/Brushes/Rugged Rocks 51.brush.meta    |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Sandy Beaches 05.brush |   43 [32m+[m
+ .../Examples/Brushes/Sandy Beaches 05.brush.meta   |   16 [32m+[m
+ .../Examples/Brushes/Seaside Cliffs 02.brush       |   43 [32m+[m
+ .../Examples/Brushes/Seaside Cliffs 02.brush.meta  |   16 [32m+[m
+ .../Examples/Brushes/Seaside Cliffs 06.brush       |   43 [32m+[m
+ .../Examples/Brushes/Seaside Cliffs 06.brush.meta  |   16 [32m+[m
+ .../Stamps/Examples/Brushes/Shores 09.brush        |   43 [32m+[m
+ .../Stamps/Examples/Brushes/Shores 09.brush.meta   |   16 [32m+[m
+ .../Terrain/Stamps/Examples/Gaia.meta              |    8 [32m+[m
+ .../Terrain/Stamps/Examples/Gaia/Setup.txt         |    5 [32m+[m
+ .../Terrain/Stamps/Examples/Gaia/Setup.txt.meta    |   15 [32m+[m
+ .../Terrain/Stamps/Examples/Heightmaps.meta        |    8 [32m+[m
+ .../Stamps/Examples/Heightmaps/Islands 07.png      |    3 [32m+[m
+ .../Stamps/Examples/Heightmaps/Islands 07.png.meta |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Islands 23.png      |    3 [32m+[m
+ .../Stamps/Examples/Heightmaps/Islands 23.png.meta |  116 [32m+[m
+ .../Examples/Heightmaps/Islands Volcano 02.png     |    3 [32m+[m
+ .../Heightmaps/Islands Volcano 02.png.meta         |  116 [32m+[m
+ .../Examples/Heightmaps/Jungle Rivers 03.png       |    3 [32m+[m
+ .../Examples/Heightmaps/Jungle Rivers 03.png.meta  |  131 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rock Shapes 10.png  |    3 [32m+[m
+ .../Examples/Heightmaps/Rock Shapes 10.png.meta    |  131 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rock Shapes 22.png  |    3 [32m+[m
+ .../Examples/Heightmaps/Rock Shapes 22.png.meta    |  131 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rocky Desert 01.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rocky Desert 01.png.meta   |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rocky Desert 12.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rocky Desert 12.png.meta   |  116 [32m+[m
+ .../Examples/Heightmaps/Rocky Plateaus 01.png      |    3 [32m+[m
+ .../Examples/Heightmaps/Rocky Plateaus 01.png.meta |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rough Cliffs 18.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rough Cliffs 18.png.meta   |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rugged Rocks 02.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rugged Rocks 02.png.meta   |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rugged Rocks 14.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rugged Rocks 14.png.meta   |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rugged Rocks 20.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rugged Rocks 20.png.meta   |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Rugged Rocks 51.png |    3 [32m+[m
+ .../Examples/Heightmaps/Rugged Rocks 51.png.meta   |  116 [32m+[m
+ .../Examples/Heightmaps/Sandy Beaches 05.png       |    3 [32m+[m
+ .../Examples/Heightmaps/Sandy Beaches 05.png.meta  |  116 [32m+[m
+ .../Examples/Heightmaps/Seaside Cliffs 02.png      |    3 [32m+[m
+ .../Examples/Heightmaps/Seaside Cliffs 02.png.meta |  116 [32m+[m
+ .../Examples/Heightmaps/Seaside Cliffs 06.png      |    3 [32m+[m
+ .../Examples/Heightmaps/Seaside Cliffs 06.png.meta |  116 [32m+[m
+ .../Stamps/Examples/Heightmaps/Shores 09.png       |    3 [32m+[m
+ .../Stamps/Examples/Heightmaps/Shores 09.png.meta  |  131 [32m+[m
+ .../Terrain/Stamps/Examples/MicroVerse.meta        |    8 [32m+[m
+ .../Examples/MicroVerse/NewLayer 1.terrainlayer    |   23 [32m+[m
+ .../MicroVerse/NewLayer 1.terrainlayer.meta        |    8 [32m+[m
+ .../Examples/MicroVerse/NewLayer 2.terrainlayer    |   23 [32m+[m
+ .../MicroVerse/NewLayer 2.terrainlayer.meta        |    8 [32m+[m
+ .../Examples/MicroVerse/NewLayer 3.terrainlayer    |   23 [32m+[m
+ .../MicroVerse/NewLayer 3.terrainlayer.meta        |    8 [32m+[m
+ .../Examples/MicroVerse/NewLayer.terrainlayer      |   23 [32m+[m
+ .../Examples/MicroVerse/NewLayer.terrainlayer.meta |    8 [32m+[m
+ .../Terrain/Stamps/Examples/MicroVerse/ReadMe.txt  |    1 [32m+[m
+ .../Stamps/Examples/MicroVerse/ReadMe.txt.meta     |   15 [32m+[m
+ .../Examples/MicroVerse/StampIT Examples.asset     |  533 [32m++++[m
+ .../MicroVerse/StampIT Examples.asset.meta         |   16 [32m+[m
+ ...New Terrain.asset => New Terrain.terrain.asset} |  Bin [31m4764713[m -> [32m4761676[m bytes
+ Assets/Prefabs/BirchWillowTree Variant.prefab      |   59 [32m+[m
+ Assets/Prefabs/BirchWillowTree Variant.prefab.meta |    7 [32m+[m
+ Assets/Prefabs/Bridge1 Variant.prefab              |   67 [32m+[m
+ Assets/Prefabs/Bridge1 Variant.prefab.meta         |    7 [32m+[m
+ Assets/Prefabs/BrownTree Variant.prefab            |   59 [32m+[m
+ Assets/Prefabs/BrownTree Variant.prefab.meta       |    7 [32m+[m
+ Assets/Prefabs/Bush1 Variant.prefab                |   59 [32m+[m
+ Assets/Prefabs/Bush1 Variant.prefab.meta           |    7 [32m+[m
+ Assets/Prefabs/Bush2 Variant.prefab                |   59 [32m+[m
+ Assets/Prefabs/Bush2 Variant.prefab.meta           |    7 [32m+[m
+ Assets/Prefabs/ReedBlack Variant.prefab            |   59 [32m+[m
+ Assets/Prefabs/ReedBlack Variant.prefab.meta       |    7 [32m+[m
+ Assets/Prefabs/ReedRed Variant.prefab              |   59 [32m+[m
+ Assets/Prefabs/ReedRed Variant.prefab.meta         |    7 [32m+[m
+ Assets/Prefabs/RockFormation1.prefab               |  222 [32m++[m
+ Assets/Prefabs/RockFormation1.prefab.meta          |    7 [32m+[m
+ Assets/Prefabs/TinyBush Variant.prefab             |   71 [32m+[m
+ Assets/Prefabs/TinyBush Variant.prefab.meta        |    7 [32m+[m
+ Assets/Prefabs/TreeCollection1.prefab              |  234 [32m++[m
+ Assets/Prefabs/TreeCollection1.prefab.meta         |    7 [32m+[m
+ Assets/Prefabs/WeirdMoss Variant.prefab            |   59 [32m+[m
+ Assets/Prefabs/WeirdMoss Variant.prefab.meta       |    7 [32m+[m
+ Assets/Scenes/level_1.unity                  
